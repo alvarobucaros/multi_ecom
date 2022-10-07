@@ -3,7 +3,7 @@
 }
 
 .main {
-  min-height: 100vh;
+ 
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -82,7 +82,7 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  
 }
 
 .card:hover,
@@ -112,18 +112,5 @@
   .grid {
     width: 100%;
     flex-direction: column;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
   }
 }

@@ -9,9 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
+    "js-md5": "^0.7.3",
+    "mysql2": "^2.3.3",
     "next": "12.2.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "reactstrap": "^9.1.4"
   },
   "devDependencies": {
     "eslint": "8.23.0",

@@ -1,32 +1,26 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Head from 'next/head'
 import Main from '../components/main'
 import Foot from '../components/footer'
 
-export default function Home() {
-
-  const [data, setData] = useState('');
-  const [autentica, setAutentica] = useState(true);
-  
-
+function admin() {
   return (
     <div>
-      <Head>
+        <Head>
         <title>MultiEcom</title>
         <meta name="description" content="Producto de AEI" />
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+        </Head>
 
-      
         <header> 
           {
-            <Main/>
+            <p> esto es lo que viene para mantenimiento</p>
           }
         </header>
-      
 
-
-      <Foot/>
+        <Foot/>
     </div>
   )
 }
+
+export default admin
